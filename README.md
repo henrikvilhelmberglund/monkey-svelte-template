@@ -20,3 +20,7 @@ If you encounter CSP issues preventing your script from loading use [Disable-CSP
 7. When you want to update the script, run `npm run dev` and replace the script, do your changes, then build and preview again. 
 
 Have fun!
+
+## When using Brave
+
+If Brave Shields blocks your userscript add `@@||localhost^$domain=www.example.com` in `brave://adblock`, replacing example.com with your domain.
